@@ -15,6 +15,10 @@
 ## Notes on Nest by Me
 
 - To overwrite header of the response, import {header} from @nestjs/common, then @Header('Content-Type','text/html')
+- @Controller('abc') @Get() = localhost:3000/abc, @Controller('abc') @Get('xyz) = localhost:3000/abc/xyz
+- @Body to pass body params
+- @UseGuards for authenticated API
+- Nest provides a HttpException class, insteas of throw new Error() -> throw new HttpException('Forbidden', HttpStatus.FORBIDDEN) try this.
 
 ## Installation
 
