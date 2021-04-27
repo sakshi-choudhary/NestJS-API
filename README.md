@@ -14,7 +14,7 @@
 
 ## Notes on Nest by Me
 
-- To overwrite header of the response, import {header} from @nestjs/commom, then @Header('Content-Type','text/html')
+- To overwrite header of the response, import {header} from @nestjs/common, then @Header('Content-Type','text/html')
 
 ## Installation
 
